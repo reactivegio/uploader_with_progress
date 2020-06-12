@@ -1,4 +1,4 @@
-![GitHub repo size]
+![GitHub repo size](https://img.shields.io/github/repo-size/reactivegio/uploader_with_progress)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
