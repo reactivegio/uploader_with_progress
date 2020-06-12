@@ -1,3 +1,6 @@
+![GitHub repo license](https://img.shields.io/github/license/reactivegio/uploader_with_progress?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/reactivegio/uploader_with_progress?style=for-the-badge)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
