@@ -1,5 +1,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/reactivegio/uploader_with_progress)
-
+![GitHub repo download](https://img.shields.io/github/downloads/reactivegio/uploader_with_progress/total
+  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
