@@ -1,7 +1,14 @@
 ![GitHub repo license](https://img.shields.io/github/license/reactivegio/uploader_with_progress?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/reactivegio/uploader_with_progress?style=for-the-badge)
 
+# The project
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is an experiment to drag & drop with progress bar after send to server (calls simulated)
+
+## Prerequisites
+
+TODO
 
 ## Available Scripts
 
