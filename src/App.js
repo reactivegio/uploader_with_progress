@@ -63,7 +63,10 @@ function App() {
 
   return (
     <div>
-      <a href="https://github.com/reactivegio/uploader_with_progress">
+      <a
+        href="https://github.com/reactivegio/uploader_with_progress"
+        style={{ position: "fixed", top: 0, right: 0 }}
+      >
         <img
           width="149"
           height="149"
