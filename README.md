@@ -3,8 +3,9 @@
 
 # The project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-It is an experiment to drag & drop with progress bar after send to server (calls simulated)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). <br />
+It is an experiment to drag & drop with progress bar after send to server (calls simulated) <br />
+You can see a demo at https://reactivegio.github.io/uploader_with_progress/ 
 
 ## Prerequisites
 
