@@ -2,37 +2,71 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titlePage{
+    margin: 32px;
+    font-size: 24px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dropped-files{
+    padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
 }
-
-.App-link {
-  color: #61dafb;
+.fileContainer{
+    margin: 16px;
+    background-color: #FFF;
+    padding: 8px;
+    display: inline-block;
+    width: 300px;
+    border-bottom: 5px solid #c9d9e8;
+    height: 70px;
+    flex: 0 0 300px;
+    position: relative;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.progressBar{
+    width: 100%;
+    height: 4px;
+}
+.progressColored{
+    margin-top: 8px;
+}
+.footer{
+    background-color: #FFF;
+    bottom: 0;
+    padding: 32px;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    border: 1px solid rgb(69, 141, 189);
+    cursor: pointer;
+    margin-left: 16px;
+    padding: 16px;    
+    text-align: center;    
+    width: 120px;    
+}
+.primary{
+    background-color: rgb(69, 141, 189);
+    color: #FFF;
+}
+.secondary{    
+    background-color: #FFF;
+    color: rgb(69, 141, 189);;   
+}
+.topIcon {
+    width: 50px;
+    position: absolute;
+    width: 20px;
+    right: -10px;
+    top: -10px;
+    width: 30px;
+}
+.topIcon img{
+    width: 30px;
+}
+.topIcon.close{
+    cursor: pointer;
 }
