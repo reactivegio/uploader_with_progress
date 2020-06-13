@@ -20,6 +20,7 @@ const Upload = (props) => {
     e.preventDefault();
     e.stopPropagation();
     e.dataTransfer.dropEffect = "copy";
+
     dispatch({ type: "IS_IN_DROP_ZONE", inDropZone: true });
   };
 
@@ -36,7 +37,6 @@ const Upload = (props) => {
       files = files.filter((f) => !existingFiles.includes(f.name));
 
       dispatch({ type: "ADD_FILE_TO_LIST", files });
-      if (e.dataTransfer) e.dataTransfer.clearData();
       dispatch({ type: "IS_IN_DROP_ZONE", inDropZone: false });
       props.setIsConfirm(true);
     }
